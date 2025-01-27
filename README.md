@@ -25,3 +25,14 @@
   <li>PHP: For server-side processing</li>
   <li>MySQL: For database management</li>
 </ul>
+
+<h2>Installation</h2>
+
+<h3>Prerequisites</h3>
+
+<ul>
+  <li>A web server like Apache or Nginx</li>
+  <li>PHP installed on your server</li>
+  <li>MySQL database setup</li>
+</ul>
+
