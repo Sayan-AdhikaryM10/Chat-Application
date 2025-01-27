@@ -118,3 +118,10 @@
   <li>Push to your branch:<br> git push origin feature-name</li>
   <li>Open a pull request.</li>
 </ol>
+
+<h1>Acknowledgments</h1>
+<ul>
+  <li><a href="https://www.php.net/docs.php" target="_blank">PHP Documentation</a></li>
+  <li><a href="https://dev.mysql.com/doc/" target="_blank">MySQL Documentation</a></li>
+  <li>Open-source libraries and tools used in the project</li>
+</ul>
