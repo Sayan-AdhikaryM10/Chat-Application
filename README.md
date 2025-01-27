@@ -53,5 +53,10 @@
      <li>Update the database credentials (host, username, password, database name) to match your setup.</li>
    </ul>
    </li>
-   <li></li>
+   <li>Start the application:<br> 
+     <ul>
+       <li>If using XAMPP, move the project folder to the htdocs directory.</li>
+        <li>Access the application in your browser at http://localhost/chatapplication.</li>
+     </ul>
+   </li>
 </ol>
