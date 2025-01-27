@@ -47,6 +47,11 @@
        <li>Use a tool like phpMyAdmin or MySQL CLI to import the file:<br> mysql -u (username) -p (database_name)  chatapp.sql</li>
      </ul>
    </li>
-   <li></li>
+   <li>Configure the database connection:<br> 
+   <ul>
+     <li>Open the config.php file.</li>
+     <li>Update the database credentials (host, username, password, database name) to match your setup.</li>
+   </ul>
+   </li>
    <li></li>
 </ol>
