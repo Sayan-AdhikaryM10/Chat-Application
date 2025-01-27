@@ -1,1 +1,1 @@
-<h1>Chat<br>Application</h1>
+<h1>Chat Application</h1>
