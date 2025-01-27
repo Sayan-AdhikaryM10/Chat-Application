@@ -84,3 +84,4 @@
 <h3>HOME Page</h3>
 
 <img src = "ImageOFapplication/imageOfapplication/1home.png" alt = "Error loading image">
+<img src="ImageOFapplication/imageOfapplication/2home.png" alt="Error loading image">
