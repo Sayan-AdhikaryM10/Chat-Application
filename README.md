@@ -91,3 +91,19 @@
 <h3>Signup page</h3>
 
 <img src="ImageOFapplication/imageOfapplication/5singup.png" alt="Error loading image">
+
+<h3>Login page</h3>
+
+<img src="ImageOFapplication/imageOfapplication/6login.png" alt="Error loading image">
+
+<h3>Notification area</h3>
+
+<img src="ImageOFapplication/imageOfapplication/7Notification.png" alt="Error loading image">
+
+<h3>Chat area</h3>
+
+<img src="ImageOFapplication/imageOfapplication/8Chat Area.png" alt="Error loading image">
+
+<h3>Database</h3>
+
+<img src="ImageOFapplication/imageOfapplication/9Database.png" alt="Error loading image">
