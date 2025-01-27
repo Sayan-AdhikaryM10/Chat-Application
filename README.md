@@ -40,7 +40,7 @@
 
 <ol type = "1">
   <li>Clone the repository to your local machine:<br> git clone https://github.com/leoGoD10/Chat-Application.git</li>
-   <li></li>
+   <li>Navigate to the project directory:<br> cd chatapplication</li>
    <li></li>
    <li></li>
    <li></li>
