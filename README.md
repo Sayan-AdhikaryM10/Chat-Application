@@ -85,3 +85,5 @@
 
 <img src = "ImageOFapplication/imageOfapplication/1home.png" alt = "Error loading image">
 <img src="ImageOFapplication/imageOfapplication/2home.png" alt="Error loading image">
+<img src="ImageOFapplication/imageOfapplication/3home.png" alt="Error loading image">
+<img src="ImageOFapplication/imageOfapplication/4home.png" alt="Error loading image">
