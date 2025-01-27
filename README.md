@@ -78,3 +78,9 @@
   <li>/database: Contains the SQL file for database setup.</li>
   <li>/index.html: The main landing page.</li>
 </ul>
+
+<h2>Demo</h2>
+
+<h3>HOME Page</h3>
+
+<img src = "ImageOFapplication/imageOfapplication/1home.png" alt = "Error loading image">
