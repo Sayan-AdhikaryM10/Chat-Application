@@ -14,3 +14,14 @@
   <li>User-friendly interface</li>
   <li>Database integration for secure and efficient data storage</li>
 </ul>
+
+<h2>Technologies Used</h2>
+
+<ul>
+  <li>HTML: For structuring the web pages</li>
+  <li>CSS: For styling the application</li>
+  <li>JavaScript: For interactivity and client-side functionality</li>
+  <li>XML: For data transport (if applicable)</li>
+  <li>PHP: For server-side processing</li>
+  <li>MySQL: For database management</li>
+</ul>
