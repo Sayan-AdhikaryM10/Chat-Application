@@ -41,7 +41,12 @@
 <ol type = "1">
   <li>Clone the repository to your local machine:<br> git clone https://github.com/leoGoD10/Chat-Application.git</li>
    <li>Navigate to the project directory:<br> cd chatapplication</li>
-   <li></li>
+   <li>Import the database:<br> 
+     <ul>
+       <li>Locate the SQL file (e.g., chatapp.sql) in the project folder.</li>
+       <li>Use a tool like phpMyAdmin or MySQL CLI to import the file:<br> mysql -u <username> -p <database_name> < chatapp.sql</li>
+     </ul>
+   </li>
    <li></li>
    <li></li>
 </ol>
