@@ -68,3 +68,13 @@
   <li>Join an existing chat room or create a new one.</li>
   <li>Start sending messages in real-time.</li>
 </ol>
+
+<h1>Folder Structure</h1>
+
+<ul>
+  <li>/css: Contains stylesheets for the application.</li>
+  <li>/js: Contains JavaScript files for interactivity.</li>
+  <li>/php: Contains server-side scripts.</li>
+  <li>/database: Contains the SQL file for database setup.</li>
+  <li>/index.html: The main landing page.</li>
+</ul>
