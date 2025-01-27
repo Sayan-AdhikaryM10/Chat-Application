@@ -107,3 +107,14 @@
 <h3>Database</h3>
 
 <img src="ImageOFapplication/imageOfapplication/9Database.png" alt="Error loading image">
+
+<h2>Contributing</h2>
+
+<p>Contributions are welcome! If you want to contribute:</p>
+<ol type = "1">
+  <li>Fork the repository.</li>
+  <li>Create a new branch for your feature or bugfix:<br> git checkout -b feature-name</li>
+  <li>Commit your changes: <br> git commit -m "Describe your changes"</li>
+  <li>Push to your branch:<br> git push origin feature-name</li>
+  <li>Open a pull request.</li>
+</ol>
