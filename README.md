@@ -60,3 +60,11 @@
      </ul>
    </li>
 </ol>
+
+<h2>Usage</h2>
+
+<ol type = "1">
+  <li>Register a new account or log in with existing credentials.</li>
+  <li>Join an existing chat room or create a new one.</li>
+  <li>Start sending messages in real-time.</li>
+</ol>
