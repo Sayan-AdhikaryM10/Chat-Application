@@ -87,3 +87,7 @@
 <img src="ImageOFapplication/imageOfapplication/2home.png" alt="Error loading image">
 <img src="ImageOFapplication/imageOfapplication/3home.png" alt="Error loading image">
 <img src="ImageOFapplication/imageOfapplication/4home.png" alt="Error loading image">
+
+<h3>Signup page</h3>
+
+<img src="ImageOFapplication/imageOfapplication/5singup.png" alt="Error loading image">
