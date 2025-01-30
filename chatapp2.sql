@@ -36,7 +36,7 @@ ALTER TABLE `messages`
 
 ALTER TABLE `users`
   MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT;
-COMMIT;
+
 
 
 
