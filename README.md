@@ -39,11 +39,11 @@
 <h3>Steps</h3>
 
 <ol type = "1">
-  <li>Clone the repository to your local machine:<br> git clone https://github.com/leoGoD10/Chat-Application.git</li>
-   <li>Navigate to the project directory:<br> cd chatapplication</li>
+  <li>Clone the repository to your local machine:<br> <code>git clone https://github.com/leoGoD10/Chat-Application.git</code></li>
+   <li>Navigate to the project directory:<br> <code>cd chatapplication</code></li>
    <li>Import the database:<br> 
      <ul>
-       <li>Locate the SQL file (e.g., chatapp.sql) in the project folder.</li>
+       <li>Locate the SQL file (e.g.,<code> chatapp.sql</code>) in the project folder.</li>
        <li>Use a tool like phpMyAdmin or MySQL CLI to import the file:<br><code> mysql -u (username) -p (database_name)  chatapp.sql</code></li>
      </ul>
    </li>
@@ -113,9 +113,9 @@
 <p>Contributions are welcome! If you want to contribute:</p>
 <ol type = "1">
   <li>Fork the repository.</li>
-  <li>Create a new branch for your feature or bugfix:<br> git checkout -b feature-name</li>
-  <li>Commit your changes: <br> git commit -m "Describe your changes"</li>
-  <li>Push to your branch:<br> git push origin feature-name</li>
+  <li>Create a new branch for your feature or bugfix:<br> <code>git checkout -b feature-name</code></li>
+  <li>Commit your changes: <br><code> git commit -m "Describe your changes"</code></li>
+  <li>Push to your branch:<br> <code>git push origin feature-name</code></li>
   <li>Open a pull request.</li>
 </ol>
 
