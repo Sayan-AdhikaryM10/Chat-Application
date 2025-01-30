@@ -44,7 +44,7 @@
    <li>Import the database:<br> 
      <ul>
        <li>Locate the SQL file (e.g., chatapp.sql) in the project folder.</li>
-       <li>Use a tool like phpMyAdmin or MySQL CLI to import the file:<br> mysql -u (username) -p (database_name)  chatapp.sql</li>
+       <li>Use a tool like phpMyAdmin or MySQL CLI to import the file:<br><code> mysql -u (username) -p (database_name)  chatapp.sql</code></li>
      </ul>
    </li>
    <li>Configure the database connection:<br> 
