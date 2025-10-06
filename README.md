@@ -1,115 +1,127 @@
+<h1>ChatApplication</h1>
 
-# ChatApplication
+<h2>Overview</h2>
 
-## Overview
+<p>ChatApplication is a web-based chat platform that allows users to communicate in real-time. The application is built using a combination of front-end and back-end technologies and incorporates a MySQL database for storing user and message data.</p>
 
-ChatApplication is a web-based chat platform that allows users to communicate in real-time. The application is built using a combination of front-end and back-end technologies and incorporates a MySQL database for storing user and message data.
+<h2>Features</h2>
 
-## Features
+<ul>
+  <li>Real-time messaging functionality</li>
+  <li>User authentication and session management</li>
+  <li>Responsive design for seamless usage on desktop and mobile devices</li>
+  <li>Chat room creation and management</li>
+  <li>User-friendly interface</li>
+  <li>Database integration for secure and efficient data storage</li>
+</ul>
 
-- Real-time messaging functionality
-- User authentication and session management
-- Responsive design for seamless usage on desktop and mobile devices
-- Chat room creation and management
-- User-friendly interface
-- Database integration for secure and efficient data storage
+<h2>Technologies Used</h2>
 
-## Technologies Used
+<ul>
+  <li>HTML: For structuring the web pages</li>
+  <li>CSS: For styling the application</li>
+  <li>JavaScript: For interactivity and client-side functionality</li>
+  <li>XML: For data transport (if applicable)</li>
+  <li>PHP: For server-side processing</li>
+  <li>MySQL: For database management</li>
+</ul>
 
-- HTML: For structuring the web pages
-- CSS: For styling the application
-- JavaScript: For interactivity and client-side functionality
-- XML: For data transport (if applicable)
-- PHP: For server-side processing
-- MySQL: For database management
+<h2>Installation</h2>
 
-## Installation
+<h3>Prerequisites</h3>
 
-### Prerequisites
+<ul>
+  <li>A web server like Apache or Nginx</li>
+  <li>PHP installed on your server</li>
+  <li>MySQL database setup</li>
+</ul>
 
-- A web server like Apache or Nginx
-- PHP installed on your server
-- MySQL database setup
+<h3>Steps</h3>
 
-### Steps
+<ol type = "1">
+  <li>Clone the repository to your local machine:<br> <code>git clone https://github.com/leoGoD10/Chat-Application.git</code></li>
+   <li>Navigate to the project directory:<br> <code>cd chatapplication</code></li>
+   <li>Import the database:<br> 
+     <ul>
+       <li>Locate the SQL file (e.g.,<code> chatapp.sql</code>) in the project folder.</li>
+       <li>Use a tool like phpMyAdmin or MySQL CLI to import the file:<br><code> mysql -u (username) -p (database_name)  chatapp.sql</code></li>
+     </ul>
+   </li>
+   <li>Configure the database connection:<br> 
+   <ul>
+     <li>Open the config.php file.</li>
+     <li>Update the database credentials (host, username, password, database name) to match your setup.</li>
+   </ul>
+   </li>
+   <li>Start the application:<br> 
+     <ul>
+       <li>If using XAMPP, move the project folder to the htdocs directory.</li>
+        <li>Access the application in your browser at http://localhost/chatapplication.</li>
+     </ul>
+   </li>
+</ol>
 
-1. Clone the repository to your local machine:  
-   `git clone https://github.com/leoGoD10/Chat-Application.git`
+<h2>Usage</h2>
 
-2. Navigate to the project directory:  
-   `cd chatapplication`
+<ol type = "1">
+  <li>Register a new account or log in with existing credentials.</li>
+  <li>Join an existing chat room or create a new one.</li>
+  <li>Start sending messages in real-time.</li>
+</ol>
 
-3. Import the database:  
-   - Locate the SQL file (e.g., `chatapp.sql`) in the project folder.  
-   - Use a tool like phpMyAdmin or MySQL CLI to import the file:  
-     `mysql -u (username) -p (database_name) < chatapp.sql`
+<h1>Folder Structure</h1>
 
-4. Configure the database connection:  
-   - Open the config.php file.  
-   - Update the database credentials (host, username, password, database name) to match your setup.
+<ul>
+  <li>/css: Contains stylesheets for the application.</li>
+  <li>/js: Contains JavaScript files for interactivity.</li>
+  <li>/php: Contains server-side scripts.</li>
+  <li>/database: Contains the SQL file for database setup.</li>
+  <li>/index.html: The main landing page.</li>
+</ul>
 
-5. Start the application:  
-   - If using XAMPP, move the project folder to the htdocs directory.  
-   - Access the application in your browser at http://localhost/chatapplication.
+<h2>Demo</h2>
 
-## Usage
+<h3>HOME Page</h3>
 
-1. Register a new account or log in with existing credentials.
-2. Join an existing chat room or create a new one.
-3. Start sending messages in real-time.
+<img src = "ImageOFapplication/imageOfapplication/1home.png" alt = "Error loading image">
+<img src="ImageOFapplication/imageOfapplication/2home.png" alt="Error loading image">
+<img src="ImageOFapplication/imageOfapplication/3home.png" alt="Error loading image">
+<img src="ImageOFapplication/imageOfapplication/4home.png" alt="Error loading image">
 
-## Folder Structure
+<h3>Signup page</h3>
 
-- /css: Contains stylesheets for the application.
-- /js: Contains JavaScript files for interactivity.
-- /php: Contains server-side scripts.
-- /database: Contains the SQL file for database setup.
-- /index.html: The main landing page.
+<img src="ImageOFapplication/imageOfapplication/5singup.png" alt="Error loading image">
 
-## Demo
+<h3>Login page</h3>
 
-### HOME Page
+<img src="ImageOFapplication/imageOfapplication/6login.png" alt="Error loading image">
 
-![home1](ImageOFapplication/imageOfapplication/1home.png)  
-![home2](ImageOFapplication/imageOfapplication/2home.png)  
-![home3](ImageOFapplication/imageOfapplication/3home.png)  
-![home4](ImageOFapplication/imageOfapplication/4home.png)
+<h3>Notification area</h3>
 
-### Signup page
+<img src="ImageOFapplication/imageOfapplication/7Notification.png" alt="Error loading image">
 
-![signup](ImageOFapplication/imageOfapplication/5singup.png)
+<h3>Chat area</h3>
 
-### Login page
+<img src="ImageOFapplication/imageOfapplication/8Chat Area.png" alt="Error loading image">
 
-![login](ImageOFapplication/imageOfapplication/6login.png)
+<h3>Database</h3>
 
-### Notification area
+<img src="ImageOFapplication/imageOfapplication/9Database.png" alt="Error loading image">
 
-![notification](ImageOFapplication/imageOfapplication/7Notification.png)
+<h2>Contributing</h2>
 
-### Chat area
+<p>Contributions are welcome! If you want to contribute:</p>
+<ol type = "1">
+  <li>Fork the repository.</li>
+  <li>Create a new branch for your feature or bugfix:<br> <code>git checkout -b feature-name</code></li>
+  <li>Commit your changes: <br><code> git commit -m "Describe your changes"</code></li>
+  <li>Push to your branch:<br> <code>git push origin feature-name</code></li>
+  <li>Open a pull request.</li>
+</ol>
 
-![chat](ImageOFapplication/imageOfapplication/8Chat Area.png)
-
-### Database
-
-![database](ImageOFapplication/imageOfapplication/9Database.png)
-
-## Contributing
-
-Contributions are welcome! If you want to contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix:  
-   `git checkout -b feature-name`
-3. Commit your changes:  
-   `git commit -m "Describe your changes"`
-4. Push to your branch:  
-   `git push origin feature-name`
-5. Open a pull request.
-
-## Acknowledgments
-
-- [PHP Documentation](https://www.php.net/docs.php)
-- [MySQL Documentation](https://dev.mysql.com/doc/)
-- Open-source libraries and tools used in the project
+<h1>Acknowledgments</h1>
+<ul>
+  <li><a href="https://www.php.net/docs.php" target="_blank">PHP Documentation</a></li>
+  <li><a href="https://dev.mysql.com/doc/" target="_blank">MySQL Documentation</a></li>
+  <li>Open-source libraries and tools used in the project</li>
+</ul>
