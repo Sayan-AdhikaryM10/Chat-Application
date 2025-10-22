@@ -1,9 +1,12 @@
-<?php 
-  session_start();
-  include_once "php/config.php";
-  if(!isset($_SESSION['unique_id'])){
-    header("location: login.php");
-  }
+<?php
+session_start();
+include_once "php/config.php";
+if(!isset($_SESSION['unique_id'])){
+  header("location: login.php");
+  exit;
+}
+
+$session_id = (int) $_SESSION['unique_id'];
 ?>
 <?php include_once "header.php"; ?>
 <body>
@@ -11,20 +14,24 @@
     <section class="users">
       <header>
         <div class="content">
-          <?php 
-            $sql = mysqli_query($conn, "SELECT * FROM users WHERE unique_id = {$_SESSION['unique_id']}");
+          <?php
+            $sql = mysqli_query($conn, "SELECT * FROM users WHERE unique_id = {$session_id}");
             if(mysqli_num_rows($sql) > 0){
               $row = mysqli_fetch_assoc($sql);
+            } else {
+              // If user not found, force logout to be safe
+              header("location: php/logout.php?logout_id={$session_id}");
+              exit;
             }
           ?>
-          <img src="php/images/<?php echo $row['img']; ?>" alt="" ondblclick =<?php echo $row['fname']?> >
+          <img src="php/images/<?php echo htmlspecialchars($row['img']); ?>" alt="User image">
           <div class="details">
-            <span><?php echo $row['fname']. " " . $row['lname'] ?></span>
-            <p><?php echo $row['status']; ?></p>
+            <span><?php echo htmlspecialchars($row['fname'] . ' ' . $row['lname']); ?></span>
+            <p><?php echo htmlspecialchars($row['status']); ?></p>
           </div>
         </div>
-      
-        <a class="hover-underline-animation" href="php/logout.php?logout_id=<?php echo $row['unique_id']; ?>" class="logout">Logout</a>
+
+        <a class="hover-underline-animation logout" href="php/logout.php?logout_id=<?php echo (int)$row['unique_id']; ?>">Logout</a>
         <label for="theme-toggle" id="theme-toggle-icon">
              <i class="fa-solid fa-moon"></i>
         </label>
