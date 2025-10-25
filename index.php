@@ -249,18 +249,18 @@
                     <i class="fa-solid fa-phone"></i>
                     <h4>Call us</h4>
                     <a>7029120726</a>
-                    <a>9330842161</a>
-                    <a>7318798045</a>
+                    <a>7029120726</a>
+                    <a>7029120726</a>
                 </div>
                 <div class="contactSection">
                     <i class="fa-regular fa-envelope"></i>
                     <h4>Email us</h4>
                     <a class="hover-underline-animation" href="bairagisudhangsu@gmail.com"
                         target="_blank">bairagisudhangsu@gmail.com</a>
-                    <a class="hover-underline-animation" href="sayanadhikary831@gmail.com"
-                        target="_blank">sayanadhikary831@gmail.com</a>
-                    <a class="hover-underline-animation" href="sudiputthasini@gmail.com"
-                        target="_blank">sudiputthasini@gmail.com</a>
+                    <a class="hover-underline-animation" href="ssbariagi06j@gmail.com"
+                        target="_blank">ssbariagi06j@gmail.com</a>
+                    <a class="hover-underline-animation" href="bairagisudhangsu02@gmail.com"
+                        target="_blank">bairagisudhangsu02@gmail.com</a>
                 </div>
             </div>
 
